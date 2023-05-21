@@ -26,7 +26,6 @@ NSUInteger HMSegmentedControlNoSegment = (NSUInteger)-1;
 
 @interface HMSegmentedControl () <UIScrollViewDelegate, HMAccessibilityDelegate>
 
-@property (nonatomic, strong) CALayer *selectionIndicatorStripLayer;
 @property (nonatomic, strong) CALayer *selectionIndicatorBoxLayer;
 @property (nonatomic, strong) CALayer *selectionIndicatorArrowLayer;
 @property (nonatomic, readwrite) CGFloat segmentWidth;
