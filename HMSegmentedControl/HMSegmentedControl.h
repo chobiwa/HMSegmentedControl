@@ -241,6 +241,8 @@ typedef NS_ENUM(NSInteger, HMSegmentedControlImagePosition) {
  */
 @property (nonatomic, readwrite) UIEdgeInsets selectionIndicatorEdgeInsets;
 
+@property (nonatomic, strong) CALayer *selectionIndicatorStripLayer;
+
 /**
  Inset left and right edges of segments.
  
